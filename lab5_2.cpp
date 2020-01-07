@@ -1,6 +1,26 @@
 #include<iostream>
+#include<string>
 using namespace std;
+//string str3;
+int i=0,j=0;
 
+string mixText(string str1,string str2){
+	string str3;
+	if(str1.size()!=str2.size()){
+		str3="E";
+	}
+	else{
+         for(i=0;i<str1.size();i++){
+           str3=str3+str1[i];
+		   str3=str3+str2[i];
+		  }
+
+		 } 
+          
+	
+	
+     return str3;
+}
 
 
 
